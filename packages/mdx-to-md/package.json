@@ -1,18 +1,23 @@
 {
-  "name": "mdx-to-md",
-  "version": "0.3.2",
-  "description": "Convert MDX to Markdown.",
+  "name": "mdx-to-md-x",
+  "version": "1.0.3",
+  "description": "Convert MDX to Markdown with enhanced image support.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/souporserious/mdx-to-md"
+    "url": "git+https://github.com/wizd/mdx-to-md.git"
   },
   "keywords": [
     "markdown",
     "md",
     "mdx",
-    "jsx"
+    "jsx",
+    "image",
+    "converter"
   ],
-  "author": "Travis Arnold",
+  "author": "Wizard <rcvbuf@gmail.com>",
+  "contributors": [
+    "Travis Arnold (Original author)"
+  ],
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

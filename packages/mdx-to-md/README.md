@@ -1,21 +1,39 @@
 <!--- This markdown file was auto-generated from "src/README.mdx" -->
 
-# mdx-to-md
+# mdx-to-md-x
 
-Convert MDX to Markdown. 
+Convert MDX to Markdown with enhanced image support. 
 
 ## Why?
 
 This library is most useful for generating README.md files [like the one you're reading](/packages/mdx-to-md/src/README.mdx).
 
+## Components Support
+
+You can import and use React components in your MDX files in two ways:
+
+1. Using relative path:
+
+```mdx
+import {MyComponent} from '../src/components/MyComponent'
+
+```
+
+1. Using alias path (components will be resolved from src/components):
+
+```mdx
+import {MyComponent} from 'components/MyComponent'
+
+```
+
 # Install
 
 ```bash
-yarn add mdx-to-md
+yarn add mdx-to-md-x
 ```
 
 ```bash
-npm install mdx-to-md
+npm install mdx-to-md-x
 ```
 
 ## CLI
